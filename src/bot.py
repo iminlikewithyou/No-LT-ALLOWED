@@ -15,6 +15,3 @@ for filename in os.listdir('./cogs'):
 @bot.event
 async def on_ready():
     print(f"Bot Online as '{bot.user}'")
-
-
-bot.run(_token["token"], bot=True, reconnect=True)
